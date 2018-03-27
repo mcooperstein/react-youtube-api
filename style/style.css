@@ -1,0 +1,10 @@
+#searchBarDiv {
+  display: flex;
+  padding: 20px;
+  background-color: #ccc;
+  justify-content: center;
+}
+
+#searchBar {
+  margin-right: 5px;
+}
