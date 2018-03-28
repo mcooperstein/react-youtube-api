@@ -39,7 +39,7 @@ class App extends Component{
 
     return (
       <div>
-        <h1 className="project-heading">React Youtube API Project</h1>
+        <h1 className="project-heading">React <img className="logo" src="./images/yt-logo.png"/> API Project</h1>
         <SearchBar onSearchTermChange={videoSearch}/>
         <VideoDetail video={this.state.selectedVideo}/>
         <VideoList onVideoSelect={selectedVideo => this.setState({selectedVideo})} videos={this.state.videos}/>
