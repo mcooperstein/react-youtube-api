@@ -1,3 +1,10 @@
+.project-heading {
+  text-align: center;
+  font-weight: bolder;
+  font-family: fantasy;
+  margin: 30px;
+}
+
 #searchBarDiv {
   display: flex;
   padding: 20px;
@@ -5,6 +12,35 @@
   justify-content: center;
 }
 
-#searchBar {
-  margin-right: 5px;
+.search-bar input {
+  width: 75%;
+}
+
+.featured-title {
+  text-align: center;
+  font-weight:bolder;
+  font-size: 1.3rem;
+}
+
+.featured-description {
+  font-size: 0.75rem;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color:#eee;
 }
